@@ -1,0 +1,27 @@
+/*-----Cousor-----*/
+
+.cursor-dot {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(170, 170, 170);
+}
+
+.cursor-outline {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: 2.5px solid rgb(150, 150, 150);
+}
+
+.cursor-dot,
+.cursor-outline {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 1000;
+    pointer-events: none;
+}
