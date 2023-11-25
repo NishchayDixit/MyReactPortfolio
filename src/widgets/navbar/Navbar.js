@@ -37,8 +37,6 @@ const Navbar = () => {
                             to={link.to}
                             spy={true}
                             smooth={true}
-                            // offset={-67}
-                            duration={800}
                             isDynamic={true}
                             onSetActive={handleSetActive}
                             className={activeSection === link.to ? 'active' : ''}

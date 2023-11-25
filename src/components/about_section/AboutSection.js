@@ -6,7 +6,7 @@ import SectionHeading from '../../widgets/section_heading/SectionHeading';
 const AboutSection = () => {
     return (
         <>
-            <SectionHeading secction_name='Who am I'/> 
+            <SectionHeading secction_name='Who Am I'/> 
             <div className='about'>
                 <div className='text_content'>
                     <div className='my_self'>
