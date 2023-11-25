@@ -18,7 +18,7 @@ const CustomCursor = () => {
             cursorOutline.animate({
                 left: `${posX}px`,
                 top: `${posY}px`
-            }, { duration: 80, fill: "forwards" });
+            }, { duration: 55, fill: "forwards" });
         };
 
         window.addEventListener("mousemove", handleMouseMove);

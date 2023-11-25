@@ -1,16 +1,18 @@
 /*-----Cousor-----*/
 
+@import url('../../assets/css/Global.css');
+
 .cursor-dot {
     width: 10px;
     height: 10px;
-    background-color: rgb(170, 170, 170);
+    background-color: var(--color-primary-text);
 }
 
 .cursor-outline {
     position: relative;
     width: 40px;
     height: 40px;
-    border: 2.5px solid rgb(150, 150, 150);
+    border: 2.5px solid var(--color-primary-text);
 }
 
 .cursor-dot,
