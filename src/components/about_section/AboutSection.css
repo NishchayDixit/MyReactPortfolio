@@ -73,8 +73,8 @@
     height: auto;
     width: auto;
     background-color: var(--main-background);
-    -webkit-filter: drop-shadow(0px 0px 10px #111111);
-            filter: drop-shadow(0px 0px 10px #111111);
+    -webkit-filter: drop-shadow(0px 0px 15px var(--color-frame-shadow));
+            filter: drop-shadow(0px 0px 15px var(--color-frame-shadow));
     border: none;
     border-radius: 20px;
     margin: 0 9%;
@@ -103,7 +103,7 @@
 
 .blurb_heading {
     margin: 0 0 15px 0;
-    color: #585858;
+    color: var(--color-blurb-heading);
     font-size: 55px;
     font-weight: 800;
 }
@@ -117,7 +117,7 @@
 .a_content-signature {
     width: 100%;
     text-align: end;
-    font-size: 30px;
+    font-size: 32px;
     font-family: "Allura", cursive;
     color: var(--color-primary-text);
     padding: 20% 0 0 0;
@@ -140,8 +140,8 @@
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column;
-        -webkit-filter: drop-shadow(0px 0px 15px #111111);
-                filter: drop-shadow(0px 0px 15px #111111);
+        -webkit-filter: drop-shadow(0px 0px 15px var(--color-frame-shadow));
+                filter: drop-shadow(0px 0px 15px var(--color-frame-shadow));
         padding: 20px 30px;
     }
 
