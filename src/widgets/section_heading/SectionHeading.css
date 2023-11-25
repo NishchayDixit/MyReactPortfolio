@@ -1,0 +1,70 @@
+/* ----- Section Heading ----- */
+
+@import url('../../assets/css/Global.css');
+
+.section_heading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    z-index: 1;
+}
+
+.section_heading h3 {
+    font-size: 32px;
+    text-align: center;
+    color: var(--color-primary-text);
+    font-weight: 800;
+}
+
+.section_heading .heading_decoration hr{
+    margin-top: 15%;
+    border:1.6px solid var(--color-primary);
+    border-radius: 20px;
+    width: 40px;
+}
+
+@media (max-width: 576px) {
+    /* styles for small screens go here */
+
+    .section_heading h3 {
+        font-size: 26px;
+    }
+
+    .section_heading .heading_decoration hr {
+        width: 30px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+    /* styles for medium screens go here */
+
+    .section_heading h3 {
+        font-size: 30px;
+    }
+
+    .section_heading .heading_decoration hr {
+        width: 35px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    /* styles for large screens go here */
+
+    .section_heading h3 {
+        font-size: 33px;
+    }
+
+    .section_heading .heading_decoration hr {
+        width: 35.5px;
+    }
+}

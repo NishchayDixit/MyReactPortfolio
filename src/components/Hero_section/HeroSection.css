@@ -69,7 +69,7 @@ header {
     font-size: 16vw;
     text-align: center;
     text-transform: uppercase;
-    text-shadow: 10px 10px 35px #000000a0;
+    text-shadow: 10px 10px 35px var(--color-intro-shadow);
 }
 
 @media (min-width: 1440px) {

@@ -1,0 +1,227 @@
+/*----- About Section -----*/
+
+@import 'https://fonts.googleapis.com/css?family=Allura|Merriweather+Sans:400,700,800';
+@import url('../../assets/css/Global.css');
+
+.no-margin {
+    margin: 0;
+}
+
+.about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+
+}
+
+.text_content {
+    position: relative;
+    display: block;
+}
+
+.my_self {
+    display: flexbox;
+    width: 100%;
+    height: auto;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    padding: 0 7%;
+}
+
+.my_self p {
+    font-size: 18px;
+    color: var(--color-secondary-text);
+    text-align: center;
+    line-height: 1.4;
+    letter-spacing: .6px;
+}
+
+.my_self p span {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    color: var(--color-highlight);
+    letter-spacing: 1.5px;
+}
+
+.a_frame {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: auto;
+    width: auto;
+    background-color: var(--main-background);
+    -webkit-filter: drop-shadow(0px 0px 10px #111111);
+            filter: drop-shadow(0px 0px 10px #111111);
+    border: none;
+    border-radius: 20px;
+    margin: 0 9%;
+}
+
+.a_visual {
+    height: auto;
+    width: 40%;
+}
+
+.a_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.blurb_heading {
+    margin: 0 0 15px 0;
+    color: #585858;
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.blurb_copy {
+    margin: 0 0 0 2px;
+    font-weight: 700;
+    color: var(--color-secondary-text);
+}
+
+.a_content-signature {
+    width: 100%;
+    text-align: end;
+    font-size: 30px;
+    font-family: "Allura", cursive;
+    color: var(--color-primary-text);
+    padding: 20% 0 0 0;
+}
+
+@media (max-width: 576px) {
+    /* styles for small screens go here */
+
+    .my_self p {
+        font-size: 12.5px;
+        line-height: 1.4;
+    }
+
+    .my_self p span {
+        font-size: 15px;
+    }
+
+    .a_frame {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-filter: drop-shadow(0px 0px 15px #111111);
+                filter: drop-shadow(0px 0px 15px #111111);
+        padding: 20px 30px;
+    }
+
+    .a_visual {
+        width: 65%;
+    }
+
+    .blurb_heading {
+        font-size: 33px;
+    }
+
+    .blurb_copy {
+        font-size: 11px;
+    }
+
+    .a_content-signature {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+    /* styles for medium screens go here */
+
+    .my_self p {
+        font-size: 14.5px;
+        line-height: 1.4;
+    }
+
+    .my_self p span {
+        font-size: 16.5px;
+    }
+
+    .a_frame {
+        width: 100%;
+        padding: 20px 10px 20px 0;
+    }
+
+    .a_visual {
+        height: auto;
+        width: 35%;
+    }
+
+    .blurb_heading {
+        font-size: 33px;
+    }
+
+    .blurb_copy {
+        font-size: 11.5px;
+    }
+
+    .a_content-signature {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    /* styles for large screens go here */
+
+    .my_self p {
+        font-size: 17.5px;
+        line-height: 1.4;
+    }
+
+    .my_self p span {
+        font-size: 19.5px;
+    }
+
+    .a_frame {
+        padding: 20px 10px 20px 0;
+    }
+
+    .blurb_heading {
+        font-size: 50px;
+    }
+
+    .blurb_copy {
+        font-size: 17px;
+    }
+
+    .a_content-signature {
+        font-size: 26px;
+    }
+}
