@@ -161,9 +161,9 @@
         display: block;
         margin: 12px 0;
         padding: 0px 25px;
-        -webkit-transition: all .5s ease;
-        -o-transition: all .5s ease;
-        transition: all .5s ease;
+        -webkit-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease;
     }
 
     .navbar a:hover {
