@@ -127,7 +127,7 @@
     /* styles for small screens go here */
 
     .my_self p {
-        font-size: 12.5px;
+        font-size: 14.5px;
         line-height: 1.4;
     }
 
@@ -166,12 +166,12 @@
     /* styles for medium screens go here */
 
     .my_self p {
-        font-size: 14.5px;
+        font-size: 15.5px;
         line-height: 1.4;
     }
 
     .my_self p span {
-        font-size: 16.5px;
+        font-size: 17.5px;
     }
 
     .a_frame {
