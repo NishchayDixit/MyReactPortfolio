@@ -72,6 +72,7 @@
     -webkit-transition: all ease .4s;
     -o-transition: all ease .4s;
     transition: all ease .4s;
+    cursor: default;
 }
 
 @media (max-width: 576px) {
@@ -99,6 +100,10 @@
         width: 100%;
         height: auto;
     }
+
+    .projects .container:hover {
+        cursor: none;
+    }
 }
 
 @media (min-width: 577px) and (max-width: 992px) {
@@ -125,6 +130,10 @@
                 flex-direction: column;
         width: 90%;
         height: auto;
+    }
+
+    .projects .container:hover {
+        cursor: none;
     }
 }
 

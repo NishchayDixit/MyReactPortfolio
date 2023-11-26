@@ -3,16 +3,16 @@
 @import url('../../assets/css/Global.css');
 
 .cursor-dot {
-    width: 10px;
-    height: 10px;
-    background-color: var(--color-primary-text);
+    width: 8.5px;
+    height: 8.5px;
+    background-color: var(--color-primary);
 }
 
 .cursor-outline {
     position: relative;
-    width: 40px;
-    height: 40px;
-    border: 2.5px solid var(--color-primary-text);
+    width: 35px;
+    height: 35px;
+    border: 1.7px solid var(--color-primary);
 }
 
 .cursor-dot,
@@ -26,4 +26,40 @@
     border-radius: 50%;
     z-index: 1000;
     pointer-events: none;
+}
+
+@media (max-width: 576px) {
+    /* styles for small screens go here */
+
+    .cursor-dot {
+        display: none;
+    }
+    
+    .cursor-outline {
+        display: none;
+    }
+    
+    .cursor-dot,
+    .cursor-outline {
+        pointer-events: none;
+        display: none;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+    /* Your styles for medium screens go here */
+
+    .cursor-dot {
+        display: none;
+    }
+    
+    .cursor-outline {
+        display: none;
+    }
+    
+    .cursor-dot,
+    .cursor-outline {
+        pointer-events: none;
+        display: none;
+    }
 }

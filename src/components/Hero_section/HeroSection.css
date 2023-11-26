@@ -33,12 +33,14 @@ header {
     font-size: 40vw;
     font-weight: 800;
     color: var(--color-intro);
+    cursor: default;
 }
 
 .intro_content {
     color: var(--color-secondary-text);
     font-size: 26px;
     font-weight: 800;
+    cursor: default;
 }
 
 .intro_content-el {

@@ -17,6 +17,7 @@
         -ms-flex-direction: column;
             flex-direction: column;
     z-index: 1;
+    cursor: default;
 }
 
 .section_heading h3 {

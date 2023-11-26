@@ -12,13 +12,18 @@ const CustomCursor = () => {
             const posX = e.clientX;
             const posY = e.clientY;
 
-            cursorDot.style.left = `${posX}px`;
-            cursorDot.style.top = `${posY}px`;
+            // cursorDot.style.left = `${posX}px`;
+            // cursorDot.style.top = `${posY}px`;
+
+            cursorDot.animate({
+                left: `${posX}px`,
+                top: `${posY}px`
+            }, { duration: 30, fill: "forwards" });
 
             cursorOutline.animate({
                 left: `${posX}px`,
                 top: `${posY}px`
-            }, { duration: 55, fill: "forwards" });
+            }, { duration: 400, fill: "forwards" });
         };
 
         window.addEventListener("mousemove", handleMouseMove);

@@ -21,10 +21,10 @@
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
-    padding: 10vh 12vw 5vh 12vw;
+    padding: 10vh 12vw 0 12vw;
 }
 
 .exception {
     height: auto !important;
-    padding: 5vh 12vw 0vh 12vw !important;
+    padding: 10vh 12vw 5vh 12vw !important;
 }

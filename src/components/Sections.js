@@ -4,6 +4,7 @@ import './Sections.css'
 import HeroSection from './hero_section/HeroSection';
 import AboutSection from './about_section/AboutSection';
 import ProjectSection from './project_section/ProjectSection';
+import SkillsSection from './skills_section/SkillsSection';
 
 const Sections = () => {
     return (
@@ -17,7 +18,9 @@ const Sections = () => {
             <Element id='project' name='project' className='portfolio_content exception'>
                 <ProjectSection />
             </Element>
-            <Element id='skill' name='skill' className='portfolio_content'></Element>
+            <Element id='skill' name='skill' className='portfolio_content'>
+                <SkillsSection />
+            </Element>
         </>
     );
 };
