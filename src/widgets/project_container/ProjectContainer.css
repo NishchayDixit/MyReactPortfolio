@@ -6,8 +6,8 @@ img {
     width: auto;
     height: 100%;
     -webkit-box-flex: 0.5;
-        -ms-flex: 0.5;
-            flex: 0.5;
+    -ms-flex: 0.5;
+    flex: 0.5;
     border-radius: 10px;
 }
 
@@ -16,12 +16,12 @@ img {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-flex: 1;
-        -ms-flex: auto;
-            flex: auto;
+    -ms-flex: auto;
+    flex: auto;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 .project-info .project-name {
@@ -60,11 +60,11 @@ img {
     .project-info .project-type {
         font-size: 15px;
     }
-    
+
     .project-info .project-name {
         font-size: 21px;
     }
-    
+
     .project-info .project-description {
         font-size: 15px;
     }
@@ -85,11 +85,11 @@ img {
     .project-info .project-type {
         font-size: 15px;
     }
-    
+
     .project-info .project-name {
         font-size: 21px;
     }
-    
+
     .project-info .project-description {
         font-size: 15px;
     }
@@ -101,11 +101,11 @@ img {
     .project-info .project-type {
         font-size: 15px;
     }
-    
+
     .project-info .project-name {
         font-size: 21px;
     }
-    
+
     .project-info .project-description {
         font-size: 15px;
     }

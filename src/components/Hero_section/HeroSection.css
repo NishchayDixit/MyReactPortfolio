@@ -50,14 +50,14 @@ header {
 .intro_content-el--name {
     -webkit-transform: translateX(-30px);
     -ms-transform: translateX(-30px);
-        transform: translateX(-30px);
+    transform: translateX(-30px);
     opacity: 0;
 }
 
 .intro_content-el--job {
     -webkit-transform: translateX(30px);
     -ms-transform: translateX(30px);
-        transform: translateX(30px);
+    transform: translateX(30px);
     text-align: right;
     opacity: 0;
 }
@@ -93,6 +93,13 @@ header {
     width: 100%;
 }
 
+.mouse_scroll .position {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .mouse_scroll .mouse_content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -104,39 +111,35 @@ header {
     -ms-flex-pack: center;
     justify-content: center;
     position: relative;
-    /* left: 50%; */
-    /* margin-left: -36px; */
-    color: #3d3d3d;
+    color: var(--color-mouse-animation);
     font-size: 18px;
-    /* font-weight: 500; */
 
 }
 
-.mouse_scroll .mouse {
+.position .mouse {
     overflow: hidden;
     position: relative;
-    left: 49.3%;
-    /* top: 92%; */
+    display: flex;
+    align-items: start;
+    justify-content: center;
     margin-bottom: 12px;
+    padding-top: 5px;
+    padding-left: .1%;
     width: 20px;
     height: 36px;
-    /* margin: -12px; */
-    border: 2px solid #404040;
+    border: 2px solid var(--color-mouse-animation);
     border-radius: 30px;
     opacity: .7;
 }
 
-.mouse_scroll .mouse::after {
+.position .mouse::after {
     display: block;
     content: "";
     position: absolute;
-    left: 7.5px;
-    top: 6.5px;
     width: 2.5px;
     height: 2.5px;
-    /* margin-left: -3px; */
-    background-color: #404040;
-    border-radius: 2px;
+    background-color: var(--color-mouse-animation);
+    border-radius: 1.5px;
     -webkit-animation: mouse-wheel 2.5s cubic-bezier(0.77, 0, 0.175, 1) infinite;
     animation: mouse-wheel 2.5s cubic-bezier(0.77, 0, 0.175, 1) infinite;
 }

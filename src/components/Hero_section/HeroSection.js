@@ -15,7 +15,9 @@ const HeroSection = () => {
                 </div>
             </header>
             <div className='mouse_scroll'>
-                <div className='mouse'></div>
+                <div className='position'>
+                    <div className='mouse'></div>
+                </div>
                 <span className='mouse_content'>Scroll Down</span>
             </div>
         </div>
