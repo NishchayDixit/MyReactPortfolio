@@ -1,15 +1,16 @@
 /*----- Global CSS -----*/
 
 :root {
-    --main-background: #1b1b1b;
+    --main-background: #181819;
     --color-primary: #5ca2b7;
     --color-primary-text: #a1a1a1;
     --color-secondary-text: #828282;
     --color-content: #5c5c5c;
-    --color-intro: #00000025;
+    --color-intro: #00000030;
     --color-highlight: #5295ab;
     --color-intro-shadow: #00000090;
     --color-mouse-animation: #404040;
     --color-blurb-heading: #585858;
     --color-frame-shadow: #111111;
+    --color-frame: #1a1b1d;
 }

@@ -3,14 +3,14 @@
 @import url('../../assets/css/Global.css');
 
 .s-container {
-    height: 135px;
+    height: 210px;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
+    align-items: start;
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: start;
@@ -18,50 +18,20 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    background-color: var(--main-background);
+    background-color: var(--color-frame);
     -webkit-filter: drop-shadow(0px 0px 4px var(--color-frame-shadow));
     filter: drop-shadow(0px 0px 4px var(--color-frame-shadow));
-    border: 1px solid #232323;
     border-radius: 15px;
-    padding: 50px 20px;
-    overflow: hidden;
-    -webkit-transition: all ease .4s;
-    -o-transition: all ease .4s;
-    transition: all ease .4s;
-}
-
-.s-container:hover {
-    height: 220px;
-    background-color: var(--main-background);
-    -webkit-filter: drop-shadow(0px 0px 15px var(--color-frame-shadow));
-    filter: drop-shadow(0px 0px 15px var(--color-frame-shadow));
+    padding: 30px 30px 0 30px;
+    /* overflow: hidden; */
     -webkit-transition: all ease .4s;
     -o-transition: all ease .4s;
     transition: all ease .4s;
 }
 
 .s-container .heading {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    gap: 20px;
     color: var(--color-primary-text);
-    font-size: 20px;
-}
-
-.s-container .heading img {
-    height: auto;
-    width: 45px;
+    font-size: 18px;
 }
 
 .s-container .tech {
@@ -75,18 +45,14 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     gap: 15px;
-    margin: 50px 0 0 0;
-}
-
-.tech hr {
-    width: 1.5px;
-    border-radius: 20px;
-    background-color: var(--color-secondary-text);
-    border-color: var(--color-secondary-text);
+    margin: 30px 0 0 0;
 }
 
 .tech .tech-name {
-    font-size: 18.5px;
+    padding: 10px 15px;
+    background-color: var(--main-background);
+    border-radius: 5px;
+    font-size: 15.5px;
     color: var(--color-secondary-text);
 }
 
@@ -94,29 +60,22 @@
     /* styles for small screens go here */
 
     .s-container {
-        height: 90px;
-        padding: 30px 0;
-    }
-
-    .s-container:hover {
-        height: 150px;
+        height: 200px;
+        width: auto;
+        padding: 25px 20px;
     }
 
     .s-container .heading {
-        gap: 10px;
         font-size: 13px;
     }
 
-    .s-container .heading img {
-        width: 30px;
-    }
-
     .s-container .tech {
-        margin: 40px 0 0 0;
+        margin: 20px 0 0 0;
     }
 
     .tech .tech-name {
         font-size: 12px;
+        padding: 8px 13px;
     }
 }
 
@@ -124,22 +83,12 @@
     /* styles for medium screens go here */
 
     .s-container {
-        height: 120px;
-        padding: 30px 0;
-    }
-
-    .s-container:hover {
-        height: 205px;
+        height: 180px;
+        padding: 25px 20px;
     }
 
     .s-container .heading {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        text-align: center;
-        gap: 10px;
-        font-size: 13px;
+        font-size: 13.5px;
     }
 
     .s-container .heading img {
@@ -147,14 +96,12 @@
     }
 
     .s-container .tech {
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        margin: 40px 0 0 0;
+        margin: 25px 0 0 0;
     }
 
     .tech .tech-name {
-        font-size: 13px;
+        font-size: 12.5px;
+        padding: 8px 13px;
     }
 }
 
@@ -162,22 +109,12 @@
     /* styles for large screens go here */
 
     .s-container {
-        height: 115px;
-        padding: 40px 0;
-    }
-
-    .s-container:hover {
-        height: 185px;
+        height: 195px;
+        padding: 30px 25px;
     }
 
     .s-container .heading {
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-        flex-direction: row;
-        text-align: center;
-        gap: 15px;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .s-container .heading img {
@@ -185,13 +122,11 @@
     }
 
     .s-container .tech {
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        margin: 45px 0 0 0;
+        margin: 20px 0 0 0;
     }
 
     .tech .tech-name {
-        font-size: 15px;
+        font-size: 14px;
+        padding: 9px 13px;
     }
 }

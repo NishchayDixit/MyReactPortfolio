@@ -22,7 +22,7 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    margin: 90px 0 0 0;
+    margin: 90px 0 90px 0;
     row-gap: 30px;
     padding: 0 80px;
 }
@@ -36,6 +36,7 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
+    justify-content: center;
     gap: 30px;
 }
 
@@ -43,7 +44,7 @@
     /* styles for small screens go here */
 
     .skills .skill-content {
-        margin: 40px 0 0 0;
+        margin: 40px 0 40px 0;
         padding: 0 0;
         gap: 15px;
     }
