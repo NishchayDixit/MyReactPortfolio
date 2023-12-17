@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import logo from '../../assets/image/My_Logo.svg';
-import resume from '../../assets/resume/Resume_Nishchay_Dixit.pdf';
+import resume from '../../assets/resume/NishchayDixitResume.pdf';
 import { scrollToSection } from '../../utills/smoothScrollService';
 import './Navbar.css'
 import 'boxicons';
