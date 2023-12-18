@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/MyReactPortfolio/static/css/main.d4b30423.css",
-    "main.js": "/MyReactPortfolio/static/js/main.f433b41c.js",
+    "main.js": "/MyReactPortfolio/static/js/main.d80691dc.js",
     "static/media/Project 1.svg": "/MyReactPortfolio/static/media/Project 1.cd43bb4975dc7c5d05d31fa11c106b59.svg",
     "static/media/profile_pic.svg": "/MyReactPortfolio/static/media/profile_pic.38705c1b98a78190636e08154dd425e4.svg",
     "static/media/Project 2.png": "/MyReactPortfolio/static/media/Project 2.69048e7c126ada31ea6c.png",
-    "static/media/NishchayDixitResume.pdf": "/MyReactPortfolio/static/media/NishchayDixitResume.fba60c734c5f914a09f2.pdf",
+    "static/media/NishchayDixitResume.pdf": "/MyReactPortfolio/static/media/NishchayDixitResume.aad5e5d50159ddc160ca.pdf",
     "static/media/Project 4.svg": "/MyReactPortfolio/static/media/Project 4.c960de95aa13bb3fb06cea980973f7d8.svg",
     "static/media/My_Logo.svg": "/MyReactPortfolio/static/media/My_Logo.2469f53619e4b4941e32074f785855a8.svg",
     "index.html": "/MyReactPortfolio/index.html",
     "main.d4b30423.css.map": "/MyReactPortfolio/static/css/main.d4b30423.css.map",
-    "main.f433b41c.js.map": "/MyReactPortfolio/static/js/main.f433b41c.js.map"
+    "main.d80691dc.js.map": "/MyReactPortfolio/static/js/main.d80691dc.js.map"
   },
   "entrypoints": [
     "static/css/main.d4b30423.css",
-    "static/js/main.f433b41c.js"
+    "static/js/main.d80691dc.js"
   ]
 }
