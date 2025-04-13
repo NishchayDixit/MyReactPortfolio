@@ -1,7 +1,7 @@
-import CustomCursor from '../widgets/custom_cursor/CustomCursor';
-import Contact from '../widgets/contact/Contact';
-import Navbar from '../widgets/navbar/Navbar';
-import Sections from './Sections';
+import CustomCursor from '../widgets/custom_cursor/CustomCursor.js';
+import Contact from '../widgets/contact/Contact.js';
+import Navbar from '../widgets/navbar/Navbar.js';
+import Sections from './Sections.js';
 
 function App() {
   return (

@@ -45,6 +45,27 @@ img {
     letter-spacing: .5px;
 }
 
+.project-info .project-links {
+    background-color: var(--color-primary-text);
+    color: var(--color-primary-bg);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 5%;
+    font-size: 15px;
+    cursor: pointer;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    max-width: 150px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.project-info .project-links:hover {
+    background-color: var(--color-primary);
+}
+
 @media (max-width: 576px) {
     /* styles for small screens go here */
 

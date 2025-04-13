@@ -1,10 +1,10 @@
 import React from 'react';
 import { Element } from 'react-scroll';
 import './Sections.css'
-import HeroSection from './hero_section/HeroSection';
-import AboutSection from './about_section/AboutSection';
-import ProjectSection from './project_section/ProjectSection';
-import SkillsSection from './skills_section/SkillsSection';
+import HeroSection from './Hero_section/HeroSection.js';
+import AboutSection from './about_section/AboutSection.js';
+import ProjectSection from './project_section/ProjectSection.js';
+import SkillsSection from './skills_section/SkillsSection.js';
 
 const Sections = () => {
     return (

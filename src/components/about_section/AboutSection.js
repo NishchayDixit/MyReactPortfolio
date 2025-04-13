@@ -10,10 +10,8 @@ const AboutSection = () => {
             <div className='about'>
                 <div className='text_content'>
                     <div className='my_self'>
-                        <p><span>Hello, I'm Nishchay Dixit</span>, A multi-talented creative with a passion for web
-                            and app development, UI/UX design, and graphic design. I thrive on turning ideas into
-                            captivating digital experiences. Let's build something
-                            amazing together!</p>
+                        <p><span>Hello, I'm Nishchay Dixit</span>, a passionate MERN stack developer with experience in building scalable web solutons, integrated seamlessly with AWS, and a strong foundation in UI/UX design.
+                            I thrive on turning ideas into captivating digital experiences. Let's build something amazing together!</p>
                     </div>
                 </div>
                 <div className='a_frame'>
